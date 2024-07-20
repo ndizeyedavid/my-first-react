@@ -12,6 +12,6 @@ It's my time to shine with this new <b>baby</b>
   4. CORS<br>
   5. Chance<br>
 
-⚠️Not designed (Test prototype)⚠️
+⚠️designed a little (Test prototype)⚠️
 
 Please support me, if you find this interasting and have high hopes that one day i will reach mi goals😊😊
