@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 
+const port = 8001; // now don't judge me, i was just testing lol😁
 const app = express();
 app.use(cors());
 
@@ -10,7 +11,7 @@ import chance from 'chance';
 
 const chances = new chance();
 
-const animals = [...Array(1050).keys()].map(id =>{
+const animals = [...Array(150).keys()].map(id =>{
     return{
         id, 
         type: chances.animal(),
@@ -29,6 +30,6 @@ app.get('', (req, res)=>{
     
 });
 
-app.listen(8901, ()=>{
-    console.log(`App running on port 8901`);
+app.listen(port, ()=>{
+    console.log(`App running on port ${port}`);
 });
