@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-
+import './main.css';
 function App() {
   const [animals, setAnimals] = useState([]);
 
